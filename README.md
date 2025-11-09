@@ -17,13 +17,9 @@ This repository contains the supporting code, data, and experimental setup for t
 - 🔗 Official Publication: Available via Taylor & Francis (see publisher page below)
 
 Note:
-The final published version (camera-ready chapter) is © Taylor & Francis Group and cannot be redistributed here or elsewhere. Please refer to the official publisher link for access to the complete text.
-
-This repository only includes original research materials (code, derived datasets, preprocessing scripts, and non-copyrighted content) used to support the study. If you require the final published chapter, figures from the publisher, or the camera-ready manuscript, please visit the official published paper website:
+The final published version (camera-ready chapter) is © Taylor & Francis Group and cannot be redistributed here or elsewhere. Please refer to the official publisher link for access to the complete text. If you require the final published chapter, figures from the publisher, or the camera-ready manuscript, please visit the official published paper website:
 
 Publisher page: https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav
-
-Please cite the published chapter and the Global Terrorism Database (GTD) when you use material from this repository (see the Citation sections below).
 
 ## Essential References (please cite when used)
 
