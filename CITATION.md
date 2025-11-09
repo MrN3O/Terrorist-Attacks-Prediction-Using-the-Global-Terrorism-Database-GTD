@@ -5,14 +5,12 @@ Please cite both the paper and the Global Terrorism Database (GTD) when using th
 Paper (BibTeX):
 
 ```bibtex
-@incollection{yadav2023prediction,
+@incollection{yadav2022prediction,
   author = {Yadav, Happy Manoj},
-  title = {Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms},
-  booktitle = {Advances in Data Science and Analytics},
-  editor = {M. N. Doja and N. Kumar and V. B. Singh and D. Singh},
-  publisher = {CRC Press},
-  year = {2023},
-  pages = {267--278},
+  title = {Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms},
+  booktitle = {Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction},
+  publisher = {Taylor & Francis Group},
+  year = {2022},
   doi = {10.1201/9781003328414-26},
   url = {https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav}
 }

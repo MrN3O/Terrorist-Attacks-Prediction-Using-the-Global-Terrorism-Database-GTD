@@ -124,6 +124,10 @@ If you'd like, I can also:
 
 Let me know which you'd prefer.
 
+## Changelog
+
+See `CHANGELOG.md` for recent changes to this repository (documentation updates, folder removals, and other notable edits).
+
 ## Full paper citation (for reference)
 
 Yadav, Happy Manoj. "Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction. Taylor & Francis Group, 2022.

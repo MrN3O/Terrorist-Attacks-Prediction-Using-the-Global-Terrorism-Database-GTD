@@ -4,9 +4,9 @@ title: "Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)"
 authors:
   - family-names: Yadav
     given-names: Happy Manoj
-date-released: 2023-01-01
+date-released: 2022-01-01
 version: "1.0"
 doi: "10.1201/9781003328414-26"
 url: "https://github.com/MrN3O/Terrorist-Attacks-Prediction-Using-the-Global-Terrorism-Database-GTD"
 preferred-citation: |
-  Yadav, Happy Manoj. "Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In Advances in Data Science and Analytics, CRC Press, 2023, pp. 267–278. DOI: 10.1201/9781003328414-26
+  Yadav, Happy Manoj. "Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction, Taylor & Francis Group, 2022. DOI: 10.1201/9781003328414-26
