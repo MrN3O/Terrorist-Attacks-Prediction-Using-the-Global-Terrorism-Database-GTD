@@ -1,123 +1,104 @@
+[...existing code...]
 # Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)
 
 ## Overview
 
-This repository contains the implementation and data for the research paper titled **"Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms"** by Happy Manoj Yadav.
+This repository contains the implementation and data supporting the study "Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms" by Happy Manoj Yadav.
 
-The study leverages the Global Terrorism Database (GTD) to develop predictive models for terrorist attacks worldwide, comparing various machine learning algorithms for accuracy and effectiveness.
+The code and data here were prepared to reproduce and extend the analyses in the paper (data preprocessing, feature engineering, model training and evaluation, and visualization).
 
-**Paper Link:** [Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav)
+## Essential References (please cite when used)
 
-## Project Structure
+- Paper (preferred citation and link):
 
-### 01 GTD Dataset/
-Contains preprocessed datasets derived from the Global Terrorism Database:
-- `00 GTD_DF_FOR_ATTACK_OR_NOT_1.csv`: Initial dataset for attack prediction.
-- `01 GTD_DF_FOR_ATTACK_OR_NOT_AND_MORE.csv`: Extended dataset with additional features.
-- `02 GTD_DF_FOR_ATTACK_OR_NOT.csv`: Refined dataset for binary classification.
-- `03 Final_GTD_After_All_Preprocessing_Steps.csv`: Final preprocessed dataset ready for modeling.
+  Yadav, Happy Manoj. "Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In *Advances in Data Science and Analytics*, CRC Press, 2023, pp. 267–278.
 
-### 02 Orange_Models/
-Orange data mining workflows for building and evaluating machine learning models:
-- `00_Attack_or_not.ows`: Initial workflow for attack prediction.
-- `00_GTD_DF_FOR_ATTACK_OR_NOT_1.csv` & `00_GTD_DF_FOR_ATTACK_OR_NOT_AND_MORE.csv`: Supporting data files.
-- `01_Attack_or_Not_Final.ows`: Finalized workflow for attack classification.
-- `02_Final_Predications.ows`: Workflow for generating predictions.
-- `03_Models.ows`: Comparative analysis of different models.
+  DOI / Chapter: https://doi.org/10.1201/9781003328414-26
 
-### 03 Jupyter_Lab_Python_Code/
-Jupyter notebooks containing Python code for data analysis, preprocessing, and prediction:
-- `Analysis_&_Prediction_Code_ Analysis_Code.ipynb`: Analysis and prediction code.
-- `Analysis_&_Prediction_Code_PreProcessing_Code.ipynb`: Data preprocessing steps.
-- `Analysis_&_Prediction_Code.ipynb`: Main analysis notebook.
-- `Combine_05-12-2021.ipynb`: Notebook combining results from 05-12-2021.
-- `Final_GTD_After_All_Preprocessing_Steps.csv` & `GTD_DF_FOR_ATTACK_OR_NOT.csv`: Supporting data files.
+  Publisher page: https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav
 
-### 04 Images/
-Visualizations and images related to the analysis:
-- `B&W/`: Black and white images.
-- `COLOR/`: Color images.
+- Dataset (Global Terrorism Database, GTD):
 
-### 05 GTD_Overleaf_Code/
-LaTeX source code for the research paper:
-- `conference_101719.tex`: Main LaTeX file for the conference paper.
+  The datasets used in this repository are derived from the Global Terrorism Database (GTD) maintained by the National Consortium for the Study of Terrorism and Responses to Terrorism (START) at the University of Maryland. Please consult START's site for licensing, citation, and access terms.
 
-### 06 Conference Proceeding/
-Additional materials related to the conference proceeding.
+  GTD home: https://www.start.umd.edu/gtd/
 
-## Methodology
+  Data access and terms: https://www.start.umd.edu/gtd/
 
-The project involves:
-1. **Data Preprocessing:** Cleaning and preparing the GTD data for modeling.
-2. **Feature Engineering:** Selecting and transforming relevant features for prediction.
-3. **Model Development:** Implementing and comparing machine learning algorithms (e.g., logistic regression, random forests, SVM, neural networks).
-4. **Evaluation:** Assessing model performance using metrics like accuracy, precision, recall, and F1-score.
-5. **Visualization:** Creating plots and charts to illustrate findings.
+Important: If you reuse this repository, please cite both the paper above and the GTD dataset per START's citation instructions. The GTD data are not public domain; users must follow START's terms and acknowledge the data source in publications.
 
-## Requirements
+## Project structure (short)
 
-To run the code in this repository, you need:
-- **Python 3.x**
-- **Jupyter Notebook** or **JupyterLab**
-- **Orange Data Mining** (for .ows workflows)
-- Required Python libraries (install via `pip`):
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - (Check individual notebooks for additional dependencies)
+- `01 GTD Dataset/` — preprocessed CSVs used for modeling (see filenames).
+- `02 Orange_Models/` — Orange workflows (.ows) used for exploratory modeling.
+- `03 Jupyter_Lab_Python_Code/` — notebooks for preprocessing, analysis, and model training.
+- `04 Images/` — figures and visual outputs used in the paper.
+- `05 GTD_Overleaf_Code/` — LaTeX source and figures for the paper.
+- `06 Conference Proceeding/` — conference materials (PDFs).
 
-Install Python packages using:
-```
-pip install pandas numpy scikit-learn matplotlib seaborn
+## Quick start (recommended)
+
+1. Clone the repo:
+
+```powershell
+git clone https://github.com/MrN3O/Terrorist-Attacks-Prediction-Using-the-Global-Terrorism-Database-GTD.git
+cd "Terrorist-Attacks-Prediction-Using-the-Global-Terrorism-Database-GTD"
 ```
 
-## Usage
+2. Prepare environment (recommended using virtualenv or conda):
 
-1. **Clone the Repository:**
-   ```
-   git clone https://github.com/MrN3O/Terrorist-Attacks-Prediction-Using-the-Global-Terrorism-Database-GTD.git
-   cd Terrorist-Attacks-Prediction-Using-the-Global-Terrorism-Database-GTD
-   ```
-
-2. **Data Preprocessing:**
-   - Open `03 Jupyter_Lab_Python_Code/Analysis_&_Prediction_Code_PreProcessing_Code.ipynb` in Jupyter.
-   - Run the cells to preprocess the data.
-
-3. **Analysis and Prediction:**
-   - Use `03 Jupyter_Lab_Python_Code/Analysis_&_Prediction_Code.ipynb` for main analysis.
-   - Execute the notebooks to train models and generate predictions.
-
-4. **Orange Workflows:**
-   - Install Orange from [orange.biolab.si](https://orange.biolab.si/).
-   - Open the .ows files in `02 Orange_Models/` to visualize and run the workflows.
-
-5. **Visualizations:**
-   - Refer to images in `04 Images/` for pre-generated plots.
-
-## Results
-
-The comparative analysis evaluates multiple ML algorithms for predicting terrorist attacks. Key findings include performance metrics, feature importance, and global patterns in terrorism data. Refer to the paper for detailed results.
-
-## Citation
-
-If you use this code or data in your research, please cite the original paper:
-
-```
-Yadav, Happy Manoj. "Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In *Advances in Data Science and Analytics*, edited by M. N. Doja, N. Kumar, V. B. Singh, and D. Singh, CRC Press, 2023, pp. 267-278.
+```powershell
+python -m venv .venv; .\.venv\Scripts\Activate.ps1
+pip install --upgrade pip
+pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab
 ```
 
-**DOI:** [10.1201/9781003328414-26](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav)
+3. Open the preprocessing notebook and run cells to regenerate the preprocessed CSVs (if you wish to reproduce preprocessing):
+
+ - `03 Jupyter_Lab_Python_Code/Analysis_&_Prediction_Code_PreProcessing_Code.ipynb`
+
+4. Run the main analysis notebook to train and evaluate models:
+
+ - `03 Jupyter_Lab_Python_Code/Analysis_&_Prediction_Code.ipynb`
+
+Notes:
+
+- Some notebooks assume the preprocessed CSVs in `01 GTD Dataset/`. If you re-run preprocessing, confirm paths in the notebooks.
+- The .ows Orange workflows can be opened in Orange (https://orange.biolab.si/).
+
+## Reproducibility & large files
+
+- This repository includes dataset CSVs and image files. If repository size becomes large, consider using Git LFS for large CSVs or binary files. If you fork or mirror this repo, be mindful of the GTD terms of use before redistributing raw GTD extracts.
+
+## Licensing & ethical use
+
+- The code in this repository is provided under the MIT license unless otherwise indicated (please add a `LICENSE` file if you need a formal license). The GTD dataset is provided by START — follow their terms.
+- Use the data responsibly. Analyses relate to real-world violent events; avoid releasing sensitive or personally-identifiable information.
+
+## How to cite
+
+If you use code or data from this repository in publications or reports, please include both citations:
+
+1. The paper (Yadav, Happy Manoj) — DOI link above.
+2. Global Terrorism Database (START, University of Maryland) — cite per https://www.start.umd.edu/gtd/
+
+Example citation text:
+
+"We used the Global Terrorism Database (START, University of Maryland) and replicated the experiments from Yadav (2023), 'Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database' (DOI: 10.1201/9781003328414-26)."
 
 ## Contributing
 
-Contributions are welcome. Please open an issue or submit a pull request for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Add a LICENSE file if needed.)
+Contributions and corrections are welcome. Please open an issue for discussion and submit pull requests for proposed changes. When contributing, ensure notebooks remain runnable and provide any environment details or dependency updates.
 
 ## Contact
 
-For questions or collaborations, contact the author: Happy Manoj Yadav.
+For questions about reproducing the results, please open an issue on GitHub or contact the repository owner.
+
+---
+
+If you'd like, I can also:
+
+- add a `CITATION.cff` or `CITATION.md` with the exact BibTeX entries for the paper and GTD, or
+- create a `requirements.txt` to pin dependencies.
+
+Let me know which you'd prefer.
