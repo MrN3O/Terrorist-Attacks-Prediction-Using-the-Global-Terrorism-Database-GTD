@@ -1,5 +1,4 @@
-[...existing code...]
-# Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)
+[Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)]
 
 ## Overview
 
