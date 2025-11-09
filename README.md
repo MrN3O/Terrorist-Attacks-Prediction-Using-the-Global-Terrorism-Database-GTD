@@ -47,8 +47,7 @@ Important: If you reuse this repository, please cite both the paper above and th
 - `02 Orange_Models/` — Orange workflows (.ows) used for exploratory modeling.
 - `03 Jupyter_Lab_Python_Code/` — notebooks for preprocessing, analysis, and model training.
 - `04 Images/` — figures and visual outputs used in the paper.
-- `05 GTD_Overleaf_Code/` — LaTeX source and figures for the paper.
-- `06 Conference Proceeding/` — conference materials (PDFs).
+- `05 Conference Proceeding/` — conference materials (PDFs).
 
 ## Quick start (recommended)
 
