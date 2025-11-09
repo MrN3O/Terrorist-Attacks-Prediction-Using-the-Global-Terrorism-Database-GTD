@@ -7,6 +7,25 @@ This repository contains the implementation and data supporting the study "Predi
 
 The code and data here were prepared to reproduce and extend the analyses in the paper (data preprocessing, feature engineering, model training and evaluation, and visualization).
 
+## 🧾 Paper Notice
+
+This repository contains the supporting code, data, and experimental setup for the following publication:
+
+- 📖 Title: Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms
+- 📚 In: Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction
+- ✍️ Authors: Happy Manoj Yadav
+- 🏢 Publisher: Taylor & Francis Group
+- 🔗 Official Publication: Available via Taylor & Francis (see publisher page below)
+
+Note:
+The final published version (camera-ready chapter) is © Taylor & Francis Group and cannot be redistributed here or elsewhere. Please refer to the official publisher link for access to the complete text.
+
+This repository only includes original research materials (code, derived datasets, preprocessing scripts, and non-copyrighted content) used to support the study. If you require the final published chapter, figures from the publisher, or the camera-ready manuscript, please visit the official published paper website:
+
+Publisher page: https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav
+
+Please cite the published chapter and the Global Terrorism Database (GTD) when you use material from this repository (see the Citation sections below).
+
 ## Essential References (please cite when used)
 
 - Paper (preferred citation and link):
@@ -102,3 +121,21 @@ If you'd like, I can also:
 - create a `requirements.txt` to pin dependencies.
 
 Let me know which you'd prefer.
+
+## Full paper citation (for reference)
+
+Yadav, Happy Manoj. "Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms." In Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction. Taylor & Francis Group, 2022.
+
+BibTeX (suggested):
+
+```bibtex
+@incollection{yadav2022prediction,
+  author = {Yadav, Happy Manoj},
+  title = {Prediction of Terrorist Attacks over the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms},
+  booktitle = {Artificial Intelligence and Knowledge Processing: Improved Decision-Making and Prediction},
+  publisher = {Taylor & Francis Group},
+  year = {2022},
+  doi = {10.1201/9781003328414-26},
+  url = {https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav}
+}
+```
