@@ -94,6 +94,14 @@ Notes:
 - The code in this repository is provided under the MIT license unless otherwise indicated (please add a `LICENSE` file if you need a formal license). The GTD dataset is provided by START — follow their terms.
 - Use the data responsibly. Analyses relate to real-world violent events; avoid releasing sensitive or personally-identifiable information.
 
+## Educational use & copyright
+
+- This repository shares supporting materials (code, derived datasets, preprocessing scripts, notebooks, and images) for educational and reproducibility purposes only. It does not contain the final camera-ready chapter or any publisher-owned copyrighted material from Taylor & Francis.
+- The final published chapter is © Taylor & Francis Group. For the authoritative (final) version of the chapter, full text, or any publisher-owned figures or tables, please consult the official publisher page: https://www.taylorfrancis.com/chapters/edit/10.1201/9781003328414-26/prediction-terrorist-attacks-throughout-globe-using-global-terrorism-database-happy-manoj-yadav
+- If Taylor & Francis or any rights-holder contacts you regarding copyright claims about the published chapter, or requests takedown of publisher-owned content, please note that the published chapter is held under publisher copyright. For inquiries or takedown requests related to materials hosted in this repository (code, derived data, or other non-publisher content), please contact the repository owner via GitHub issues or their GitHub profile (https://github.com/MrN3O). If you are the copyright holder or a publisher representative and believe that this repository hosts infringing material, open an issue or email the repository owner so we can promptly address the concern.
+
+- If you are the author or a representative of Taylor & Francis and want specific language added or require formal notices, please contact the repository owner and we will work to accommodate the request.
+
 ## How to cite
 
 If you use code or data from this repository in publications or reports, please include both citations:
