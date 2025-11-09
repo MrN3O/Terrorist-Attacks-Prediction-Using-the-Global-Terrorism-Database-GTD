@@ -1,10 +1,10 @@
-[# Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)]
+# Terrorist Attacks Prediction Using the Global Terrorism Database (GTD)
 
 ## Overview
 
-This repository contains the implementation and data supporting the study "Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms" by Happy Manoj Yadav.
+This repository contains the implementation and data used for the study “Prediction of Terrorist Attacks throughout the Globe Using the Global Terrorism Database: A Comparative Analysis of Machine Learning Prediction Algorithms” by Happy Manoj Yadav.
 
-The code and data here were prepared to reproduce and extend the analyses in the paper (data preprocessing, feature engineering, model training and evaluation, and visualization).
+The materials here are provided for academic and educational purposes, demonstrating data preprocessing, feature engineering, model training, evaluation, and visualization related to the study’s topic.
 
 ## 🧾 Paper Notice
 
